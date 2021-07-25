@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Jogo da Memória</title>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/jogo.js"></script>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+            <h1  id="titulo">JOGO DA MEMÓRIA</h1>  
+        
+        <hr  id="linha">
+        
+        <div id="informacoes">
+            <button id="iniciar" onclick="iniciar()">Iniciar</button>
+            <button id="resetar" onclick="resetar()">Resetar</button>          
+            <div id="relogio">
+                <div class="r" id="horas">00</div>
+		<div class="r" id="minutos">:00</div>
+		<div class="r" id="segundos">:00</div>                
+            </div>
+            <p id="pontuacao">Pontuação - 0</p>
+            <p id="jogadas">Jogadas - 0</p>       
+        </div>
+        
+        <div class="bloco">
+            <button class="b" onclick="virarCartas('1')" id="botao1"></button> 
+            <button class="b" onclick="virarCartas('2')" id="botao2"></button>
+            <button class="b" onclick="virarCartas('3')" id="botao3"></button>
+            <button class="b" onclick="virarCartas('4')" id="botao4"></button>
+        </div>
+        <div class="bloco">    
+            <button class="b" onclick="virarCartas('5')" id="botao5"></button> 
+            <button class="b" onclick="virarCartas('6')" id="botao6"></button>
+            <button class="b" onclick="virarCartas('7')" id="botao7"></button>
+            <button class="b" onclick="virarCartas('8')" id="botao8"></button>
+        </div>
+         
+        <div class="bloco">    
+            <button class="b" onclick="virarCartas('9')" id="botao9"></button>      
+            <button class="b" onclick="virarCartas('10')" id="botao10"></button>
+            <button class="b" onclick="virarCartas('11')" id="botao11"></button>
+            <button class="b" onclick="virarCartas('12')" id="botao12"></button> 
+        </div>
+         
+        <footer id="rodaPe"><p>Direitos autorais &copy;Pedro Lucas, 2018</p></footer>
+
+    </body>
+</html>

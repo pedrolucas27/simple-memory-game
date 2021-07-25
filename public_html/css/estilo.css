@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+#titulo{
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+#linha{
+    margin-top: 10px;
+    height: 2px;
+    background-color: blue;
+}
+#informacoes{
+    margin-top: 15px;
+}
+#iniciar{
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #00FF00;
+    float: left;
+    margin-left: 100px; 
+}
+#resetar{
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #FF0000;
+    float: left;
+    margin-left: 25px; 
+}
+#relogio{
+    margin-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.r{
+    float: left;
+    font-size: 30px;
+    color: #363431;
+    display: inline-block;
+}
+
+#jogadas{
+    display: inline-block;
+    font-size: 35px;
+    float: right;
+    margin-right: 50px;
+}
+#pontuacao{
+    display: inline-block;
+    font-size: 35px;
+    float: right;
+    margin-right: 100px;
+
+}
+.bloco{
+    margin-top: 15px;
+    text-align: center;
+}
+.b{   
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.8s;
+    background-image:url(../img/padrao.png);
+    
+}
+#rodaPe{
+    margin-top: 30px;
+}
+#rodaPe > p{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+}
+
+.imagem1{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    background-image: url('../img/imagem1.png');
+}
+.imagem2{  
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    background-image: url('../img/imagem2.png');
+}
+.imagem3{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    background-image: url('../img/imagem3.png');
+}
+.imagem4{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    background-image: url('../img/imagem4.png');
+}
+.imagem5{
+   width: 150px;
+   height: 150px;
+   border-radius: 10px;
+   margin: 10px;
+   transform: rotateY(180deg);
+   transition: transform 0.8s;
+   background-image: url('../img/imagem5.png'); 
+}
+.imagem6{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    background-image: url('../img/imagem6.png');
+}
+
+
+
+    @media only screen and (max-width: 400px) {
+     
+        #iniciar{
+            float: none;
+            margin-left: 10px;
+           
+        }
+        #resetar{
+            float: none;
+            margin-left: 10px;
+           
+        }
+        #relogio{
+            display:inline-block;
+            margin-left: 10px;
+        }
+        .r{
+            float: none;
+            font-size: 23px;
+        }
+        
+        .bloco{
+            text-align: center;
+            display: inline-block;
+            
+        } 
+        #pontuacao{
+            float: none;
+            margin-left: 10px;
+            display: block;
+            font-size: 23px;
+        }
+        #jogadas{
+            margin-left: 10px;
+            display: inline-block;
+            float: none;
+            font-size: 23px;
+        }
+   
+    }
+
+
+  
+    
